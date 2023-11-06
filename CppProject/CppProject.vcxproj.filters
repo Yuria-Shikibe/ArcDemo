@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\math">
+      <UniqueIdentifier>{5933562a-1fca-4c47-af80-d9c79bdc6835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\math\geom">
+      <UniqueIdentifier>{56e9c8f7-305d-4421-8610-6938f67f9a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\math">
+      <UniqueIdentifier>{26e4a72d-d3a3-4789-a669-495b1e2a2b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\math\geom">
+      <UniqueIdentifier>{4092c55c-a369-484d-9495-cc40ff40da3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graphic">
+      <UniqueIdentifier>{90a8f286-e928-41db-a809-4a104e0372a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\asserts">
+      <UniqueIdentifier>{f5ecdd11-0076-40d3-bd00-f418c13580ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\asserts\shaders">
+      <UniqueIdentifier>{93e88d82-b935-4233-8016-14a89a8259c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{521fe995-af62-4505-bd7a-d8c8ed8e9191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\graphic">
+      <UniqueIdentifier>{00c8ef91-bf6c-48d6-b937-96fb847b38d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\asserts\texture">
+      <UniqueIdentifier>{76dcf63e-e6aa-47a4-81d2-486c78fa18d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graphic\buffer">
+      <UniqueIdentifier>{2fd6b826-822f-459f-87f2-3cc18ed13801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util\os">
+      <UniqueIdentifier>{a151b5ee-efc4-4e48-9d85-fd847aa3f22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\os">
+      <UniqueIdentifier>{8d1eb3ef-efba-4d98-9606-3781260b0e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util\container">
+      <UniqueIdentifier>{067dc891-2987-4916-a472-4cea0eb99eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graphic\gl">
+      <UniqueIdentifier>{9c6c86a3-9d5f-472d-b51e-3d414ebd95e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>源文件\math\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>源文件\math\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3D.cpp">
+      <Filter>源文件\math\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>源文件\math\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_Exception.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeLayout.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Blending.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractBuffer.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationListener.cpp">
+      <Filter>头文件\util\os</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderBuffer.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>源文件\os</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="constString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureVault.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>头文件\util\os</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRegion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSampleFrameBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Positon.h">
+      <Filter>头文件\math\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>头文件\math\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3D.h">
+      <Filter>头文件\math\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>头文件\math\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="convert.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Blending.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>头文件\graphic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>头文件\graphic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>头文件\graphic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderBuffer.h">
+      <Filter>头文件\graphic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBuffer.h">
+      <Filter>头文件\graphic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationListenerSetter.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="OS.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationListener.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCore.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="constString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HashMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicUtil.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\util\os</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Uniform.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Exception.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureVault.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRegion.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeLayout.h">
+      <Filter>头文件\graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSampleFrameBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\asserts\shader\std.frag">
+      <Filter>资源文件\asserts\shaders</Filter>
+    </None>
+    <None Include="..\asserts\shader\std.vert">
+      <Filter>资源文件\asserts\shaders</Filter>
+    </None>
+    <None Include="..\asserts\shader\tex-std.frag">
+      <Filter>资源文件\asserts\shaders</Filter>
+    </None>
+    <None Include="..\asserts\shader\tex-std.vert">
+      <Filter>资源文件\asserts\shaders</Filter>
+    </None>
+    <None Include="..\asserts\shader\screenspace.frag">
+      <Filter>资源文件\asserts\shaders</Filter>
+    </None>
+    <None Include="..\asserts\shader\screenspace.vert">
+      <Filter>资源文件\asserts\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
