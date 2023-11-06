@@ -9,7 +9,7 @@
 #include "Renderer.h"
 
 namespace Graphic{
-	inline static const std::string ASSERTS_DIR = "D:\\projects\\study_cpp_porj\\Build\\asserts\\";
+	inline static const std::string ASSERTS_DIR = "D:\\projects\\study_cpp_porj\\ArcDemo\\CppProject\\asserts\\";
 
     static std::string getPath(const std::string& name){
         return ASSERTS_DIR + name;

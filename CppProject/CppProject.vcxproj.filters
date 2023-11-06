@@ -28,20 +28,11 @@
     <Filter Include="头文件\graphic">
       <UniqueIdentifier>{90a8f286-e928-41db-a809-4a104e0372a9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件\asserts">
-      <UniqueIdentifier>{f5ecdd11-0076-40d3-bd00-f418c13580ab}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\asserts\shaders">
-      <UniqueIdentifier>{93e88d82-b935-4233-8016-14a89a8259c9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\util">
       <UniqueIdentifier>{521fe995-af62-4505-bd7a-d8c8ed8e9191}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\graphic">
       <UniqueIdentifier>{00c8ef91-bf6c-48d6-b937-96fb847b38d4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\asserts\texture">
-      <UniqueIdentifier>{76dcf63e-e6aa-47a4-81d2-486c78fa18d7}</UniqueIdentifier>
     </Filter>
     <Filter Include="头文件\graphic\buffer">
       <UniqueIdentifier>{2fd6b826-822f-459f-87f2-3cc18ed13801}</UniqueIdentifier>
@@ -287,25 +278,5 @@
     <ClInclude Include="MultiSampleFrameBuffer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\asserts\shader\std.frag">
-      <Filter>资源文件\asserts\shaders</Filter>
-    </None>
-    <None Include="..\asserts\shader\std.vert">
-      <Filter>资源文件\asserts\shaders</Filter>
-    </None>
-    <None Include="..\asserts\shader\tex-std.frag">
-      <Filter>资源文件\asserts\shaders</Filter>
-    </None>
-    <None Include="..\asserts\shader\tex-std.vert">
-      <Filter>资源文件\asserts\shaders</Filter>
-    </None>
-    <None Include="..\asserts\shader\screenspace.frag">
-      <Filter>资源文件\asserts\shaders</Filter>
-    </None>
-    <None Include="..\asserts\shader\screenspace.vert">
-      <Filter>资源文件\asserts\shaders</Filter>
-    </None>
   </ItemGroup>
 </Project>

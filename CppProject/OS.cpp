@@ -1,1 +1,0 @@
-﻿$PCH$#include "$NAME$.h"
